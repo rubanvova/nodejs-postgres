@@ -50,7 +50,7 @@ class UserController {
       res.status(500).send();
     }
   }
-
+  ///
   async getUser(req, res) {
     try {
       const { id } = req.params;
